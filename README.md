@@ -33,3 +33,20 @@ SQL 기본 문법과 데이터 조회/집계 능력을 학습한 저장소입니
 SELECT ░░░░░░░░░░ 0%
 GROUP BY ░░░░░░░░░░ 0%
 JOIN ░░░░░░░░░░ 0%
+
+## Commit Convention
+
+커밋 메시지는 작업 내용을 쉽게 파악할 수 있도록 아래 규칙을 사용합니다.
+
+| Type | Description | Example |
+|---|---|---|
+| `solve` | 새로운 SQL 문제 풀이 추가 | `solve: 재구매한 회원과 상품 문제 풀이` |
+| `fix` | 잘못된 SQL 쿼리 또는 풀이 수정 | `fix: GROUP BY 조건 수정` |
+| `refactor` | 정답은 동일하지만 SQL 구조 및 가독성 개선 | `refactor: 날짜 조회 조건 간소화` |
+| `docs` | README 및 학습 내용 수정 | `docs: GROUP BY 개념 정리 추가` |
+| `chore` | 폴더 구조, 설정 등 기타 작업 | `chore: SELECT 디렉터리 구조 정리` |
+
+### Commit Message Format
+
+```text
+Type: 작업 내용
